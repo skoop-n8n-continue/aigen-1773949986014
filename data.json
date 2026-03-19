@@ -20,7 +20,7 @@
       "primary_color": {
         "type": "color",
         "label": "Primary Text Color",
-        "value": "#ffffff"
+        "value": "#eb5b34"
       },
       "secondary_color": {
         "type": "color",
