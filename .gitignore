@@ -1,0 +1,5 @@
+.claude
+.tmp
+node_modules
+.npm_cache
+assets/

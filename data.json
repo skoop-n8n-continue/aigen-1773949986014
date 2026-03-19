@@ -1,0 +1,63 @@
+{
+  "app_id": "aigen-1773949986014",
+  "document_version": 1,
+  "sections": {
+    "app_settings": {
+      "background_image": {
+        "type": "file",
+        "label": "Background Image",
+        "value": "assets/mountain_background.png",
+        "meta": {
+          "accepted_formats": ["png", "jpg", "webp"],
+          "path": "assets/"
+        }
+      },
+      "background_overlay": {
+        "type": "color",
+        "label": "Background Overlay Color",
+        "value": "rgba(0, 0, 0, 0.3)"
+      },
+      "primary_color": {
+        "type": "color",
+        "label": "Primary Text Color",
+        "value": "#ffffff"
+      },
+      "secondary_color": {
+        "type": "color",
+        "label": "Secondary Text Color",
+        "value": "#f0f0f0"
+      },
+      "font_family": {
+        "type": "enum",
+        "label": "Font Style",
+        "value": "sans-serif",
+        "meta": {
+          "options": ["sans-serif", "serif", "monospace"]
+        }
+      }
+    },
+    "clock_settings": {
+      "time_format": {
+        "type": "enum",
+        "label": "Time Format",
+        "value": "12h",
+        "meta": {
+          "options": ["12h", "24h"]
+        }
+      },
+      "show_seconds": {
+        "type": "boolean",
+        "label": "Show Seconds",
+        "value": true
+      },
+      "date_format": {
+        "type": "enum",
+        "label": "Date Format",
+        "value": "full",
+        "meta": {
+          "options": ["full", "short", "numeric"]
+        }
+      }
+    }
+  }
+}
